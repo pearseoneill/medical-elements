@@ -1,0 +1,219 @@
+body {background-color:#AAD8CB; }
+
+.pinkbody {background-color:#d78d8f;}
+
+.greenbody {background-color: #8dc4bc;}
+
+.redbody {background-color: #c1747a;}
+.splash {width: 100%;
+position: absolute;}
+
+h1 { font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 3em;
+padding-left: 2em;
+padding-top: 1em;}
+
+h2 { font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 2em;
+padding-left: 2em;
+padding-top: 1.1em;}
+
+h3 { font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 2.5em;
+padding-right: 2em;
+    padding-left: 14.55em;
+padding-top: 1em;
+float: right;}
+
+p{font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 1.5em;
+padding-right: 5em;
+    padding-left: 24.3em;
+padding-top: 5.5em;
+float: right;}
+
+.oxygenp{font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 1.5em;
+padding-right: 5em;
+    padding-left: 24.3em;
+padding-top: 5.5em;
+float: right;}
+
+.button1 {
+    position: absolute;
+    width: 10%;
+   
+    background-color: #C7595F;
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    left: 28.8em;
+    top: 20.4em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    margin: 4px 5px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.button2 {
+    position: absolute;
+    width: 10%;
+   
+    background-color: #C7595F;
+    border: none;
+    color: white;
+    padding: 8px 24px;
+  right: 8em;
+  bottom: 4em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 1;
+    margin: 4px 5px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+.button3 {
+    position: absolute;
+    width: 10%;
+   
+    background-color: #C7595F;
+    border: none;
+    color: white;
+    padding: 8px 24px;
+  right: 8em;
+  bottom: 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 1;
+    margin: 4px 5px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.grow-1{
+    display: inline-block;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    transition-property: transform;  
+    -webkit-transition-property: transform;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.grow-1:hover, .grow-1:focus, .grow-1:active {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+ 
+}
+
+.iodine {
+    position: absolute;
+    top: 310px;
+    left: 120px;
+    z-index: 1;
+    width: 8%;
+    float: left;
+}
+
+.syringe {
+    position: absolute;
+    top: 100px;
+    left: 410px;
+    z-index: 1;
+    width: 9%
+}
+
+.thermometer {
+    position: absolute;
+    top: 250px;
+    left: 570px;
+    z-index: 1;
+    width: 9%
+}
+
+.oxygen {
+    position: absolute;
+    bottom:-20px;
+    left: 420px;
+    z-index: 1;
+    width: 8%
+}
+.xray {
+    position: absolute;
+    top: 60px;
+   right: 70px;
+    z-index: 1;
+    width: 28%
+}
+
+.iodine1 {
+    position:absolute;
+    width:30%;
+    top: 90px;
+    left: 100px;
+    
+}
+
+.astatine1 {
+    position:absolute;
+    height: 75%;
+    top: 90px;
+    left: 175px;
+    
+}
+
+.barium1 {
+    position:absolute;
+  width: 35%;
+    top: 130px;
+    left: 80px;
+    
+}
+
+.oxygen1 {
+    position:absolute;
+  height: 68%;
+    top: 110px;
+    left: 175px;
+    
+}
+
+   
+        
+        .whole {widows: 100vw;
+    height: 100vh;
+    background-image: url(../images/homepage.png);
+    background-size: cover}
+
+
+
+.splitscreen {display: flex;}
+
+.side1, .side2 {display:flex;
+flex-direction:column;
+justify-content: center;}
+
+.side1{}
